@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+  img{
+    width: 100%;     
+     }
+     .addtocart{
+        width: 220px;
+        height: 40px;
+      border-radius: 60px;
+      border: 2px;
+     }
+    
+   
+button{
+    transition: all 1s;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.card-img-top{
+    border-radius: 20px;
+}
+ins{
+    text-decoration: none;
+    color: red
+
+}
+
+.bx bxs-star{
+    color: black;
+}
+.buttoncart{
+    height: 40px;
+    width: 200px;
+    border-radius: 80px;
+    font-weight: 700px;
+    color: blue;
+    background-color: brown;
+}
+.card-body{
+    border: 2px;
+}
+.modal-body{
+    text-align: center;
+}
+.custom{
+    border: 1px solid aqua;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+     
+  
+</style>
+<body>
+    <!-------------front banner -images---------------->
+    <img src="images/our products banner.png" alt="">
+    <br>
+    <br>
+    <!----------------cards--------------------->
+    <!--product1-->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col custom">
+          <img src="images/4by1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oraganic Peppermint</h5>
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          <p class="card-text"></p>
+          <b><del>RS=1399</del></b>
+          <br>
+          <b><ins>RS=1295</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Oraganic Peppermint</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/4by1.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- Nurture Your Spirit: Add a few drops of our peppermint oil in your diffuser to unleash its fresh, cool and minty scent promoting energy, focus and mental alertness. Its menthol content has a revitalizing effect on the skin. Add it to carrier oils to help relieve sore muscles, tension and discomfort.
+
+          - Organic Peppermint Essential Oil creates a strong aromatic scent that has a fresh, cool, minty smell. This scent is invigorating to the senses that promotes energy and alertness. It is a refreshing and stimulating oil that is both soothing and enlightening.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- product 2 -->
+      <div class="col custom">
+        <img src="images/4by2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Lemon</h5>
+      <center>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bx-star'></i>(4.0)
+        <p class="card-text"></p>
+        <b><del>RS=1499</del></b>
+        <br>
+        <b><ins>RS=1289</ins></b>
+        </center>
+        <br>
+      <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+        Check Now
+      </button>
+    </div>
+      </div>
+<!-- modal -->
+<div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Lemon
+</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/4by2.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6> With Lemon, everyday can be the first day of spring. Its crisp, citrus-fresh aroma brings to mind sunshine and your favorite household cleaning products — just without the chemicals. Lemon can uplift sullen moods and inspire a positive outlook with its bright aromatic notes. Sourced from Italy, this essential oil might just add a romantic touch to your air when diffused. Or, when life takes you on the road, enjoy Lemon through a personal inhaler.
+
+          - Women-owned and family-operated since 2009, we personally source each essential oil and raw ingredient to ensure affordable prices without compromising quality. Voted the #1 Non-MLM essential oil company, it's our pleasure to be your one-stop shop for all things aromatherapy.
+     </h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product3-->
+        <div class="col custom">
+          <img src="images/4by3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lavender</h5>
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          <p class="card-text"></p>
+          <b><del>RS=1469</del></b>
+          <br>
+          <b><ins>RS=1249</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Lavender</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/4by3.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>CALMING AND RELAXING: Lavender oil is ultra-versatile and loaded with benefits. That's probably why it's one the most popular and widely used essential oils. Diffuse a few drops at night to create a warm, calm atmosphere that is perfect for sleeping and relaxation. IDEAL FOR NATURAL SKIN CARE: Dilute 2-5% of Lavender in a carrier oil of your choice. It can help with skin issues like fine lines, wrinkles, and chapped lips. Create a natural hair tonic using Pure Lavender to stimulate hair growth and battle itchy dandruff.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--product4-->
+
+ 
+
+ <div class="container text-center">
+  <div class="row">
+    <div class="col custom">
+      <img src="images/4by4.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Immune Aid</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+      <p class="card-text"></p>
+      <b><del>RS=1789</del></b>
+      <br>
+      <b><ins>RS=1599</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Immune Aid</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/4by4.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- BOOST YOUR IMMUNE SYSTEM: Organic Immune Aid was created to help support your immune system when life gets hectic and stressful. This blend contains the 100% pure, undiluted essential oils of Frankincense Serrata, Tea Tree, Rosemary 1,8-Cineole, Lemon, Eucalyptus, and Sweet Orange.
+
+          - UPLIFT YOUR MOOD: Organic Immune Aid has an uplifting aroma that is herbaceous and fresh, with a hint of citrus. Use this blend aromatically to lift your spirits and help support a healthy immune system during times of stress and seasonal threats.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- product 5 -->
+  <div class="col custom">
+    <img src="images/4by5.png" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Germ Fighter</h5>
+  <center>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>(5.0)
+    <p class="card-text"></p>
+    <b><del>RS=2299</del></b>
+    <br>
+    <b><ins>RS=1989</ins></b>
+    </center>
+    <br>
+  <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">
+    Check Now
+  </button>
+</div>
+  </div>
+<!-- modal -->
+<div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Germ Fighter</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/4by5.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>(5.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6> DEFENSE SHIELD FOR YOUR IMMUNE SYSTEM: Germ Fighter essential oil is a natural, organic blend of Lemon, Clove Bud, Eucalyptus Globulus, Cinnamon Cassia, Rosemary 1,8-Cineole. It’s designed to support your immune system in fighting off germs; providing you relief and keeping you in good health.
+
+          - 100% PURE OIL CRAFTED BY EXPERTS: Our Aromatherapists use only 100% Pure, undiluted essential oils. Breathe in this therapeutic-grade synergy oil with an aromatherapy diffuser or mix with a Plant Therapy Carrier Oil and massage into your feet to fight colds, sinus healing and help with acute congestion.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product6-->
+    <div class="col custom">
+      <img src="images/4by6.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Clary Sage</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bx-star'></i>(4.0)
+      <p class="card-text"></p>
+      <b><del>RS=1499</del></b>
+      <br>
+      <b><ins>RS=1329</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Clary Sage</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/4by6.png" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>-- BEYOND CALMING: Clary Sage is a balancing, mood-boosting oil that can help calm the turbulent emotions that may arise during that time of the month. When applied topically to the abdomen, it can also help soothe discomfort. For menstrual discomfort, combine two drops each Clary Sage, Geranium Bourbon, and Marjoram Sweet in your favorite carrier oil and massage onto your abdomen.
+
+          - CREATE A CALMING & GROUNDING ATMOSPHERE: Add 3-4 drops to your diffuser, Diffuse for 30-60 minutes, Inhale deeply & repeat 2-3 times a day. FOR HAIR, SKIN, & NAILS: For gorgeous hair, skin, and nails, Clary Sage is definitely an oil you want to have on hand as it can help with all three. For topical appliation, dilute to 1-3%.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+       
+</body>
+</html>

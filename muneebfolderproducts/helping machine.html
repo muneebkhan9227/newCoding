@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+  img{
+    width: 100%;     
+     }
+     .addtocart{
+        width: 220px;
+        height: 40px;
+      border-radius: 60px;
+      border: 2px;
+     }
+    
+   
+button{
+    transition: all 1s;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.card-img-top{
+    border-radius: 20px;
+}
+ins{
+    text-decoration: none;
+    color: red
+
+}
+
+.bx bxs-star{
+    color: black;
+}
+.buttoncart{
+    height: 40px;
+    width: 200px;
+    border-radius: 80px;
+    font-weight: 700px;
+    color: blue;
+    background-color: brown;
+}
+.card-body{
+    border: 2px;
+}
+.modal-body{
+    text-align: center;
+}
+.custom{
+    border: 1px solid aqua;
+    margin: 5px;
+    border-radius: 20px;
+}
+</style>
+<body>
+    <!-------------front banner -images---------------->
+    <img src="images/our products banner.png" alt="">
+    <br>
+    <br>
+    <!----------------cards--------------------->
+    <!--product1-->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col custom">
+          <img src="images/1by1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sphygmomanometer</h5>
+        <center>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>(4.5)
+          <p class="card-text"></p>
+          <b><del>RS=9679</del></b>
+          <br>
+          <b><ins>RS=8895</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Sphygmomanometer</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/1by1.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>(4.5)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- AUTOMATIC BP MACHINE MONITORS PULSE RATE to see how well the heart is working. Helps in finding out if the heart is pumping enough blood to identify symptoms, such as irregular or rapid heartbeat, dizziness, fainting, chest pain, or shortness of breath
+
+            - EASY TO READ LCD that can store up to 120 readings for 2 user with date and time stamp. PRODUCT SPECS: Includes 1 standard adult wrist blood pressure cuff measuring 5.3”-8.5” and hard protective case. Batteries Included.
+            
+            - Note: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- product 2 -->
+      <div class="col custom">
+        <img src="images/1by2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Massage Machine</h5>
+      <center>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bx-star'></i>(4.0)
+        <p class="card-text"></p>
+        <b><del>RS=32999</del></b>
+        <br>
+        <b><ins>RS=28809</ins></b>
+        </center>
+        <br>
+      <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+        Check Now
+      </button>
+    </div>
+      </div>
+<!-- modal -->
+<div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Massage Machine</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/1by2.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- 4 Unique Attachment Heads – Flat disc for extra wide coverage, 4-finger flex to replicate fingers from a massage, acupoint head for pin-point relief of tension, & deep muscle ball to relax the body; attachments reduce pain & fatigue from joints, injury, muscle knots, & stress. User Friendly – Sleek, 1.9 lbs. long handle massager for all-over muscle comfort for the back, neck, shoulder, legs, hands, feet and full-body; professional quality & therapeutic massaging feel
+        - Long 9 ft Power Cable – Increased length gives you greater flexibility during usage; treat yourself to a post work out massage or after a stressful day at work. Made for US outlets only.
+     </h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product3-->
+        <div class="col custom">
+          <img src="images/1by3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hearing Aids</h5>
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          <p class="card-text"></p>
+          <b><del>RS=5869</del></b>
+          <br>
+          <b><ins>RS=4699</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Hearing Aids</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/1by3.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- Large volume control dial numbered 1-8 for easy setting;
+
+            - Background noise reduction;Output compression control;
+            
+            - Max. Output:120dB;Max. Gain:55dB;Average Output:110dB;Average Gain:55dB;
+            
+            - Frequency range:200Hz- 5000Hz;Harmonic Distortion:3%;Battery Size:AA;Battery Drain:5mA.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--product4-->
+
+ 
+
+ <div class="container text-center">
+  <div class="row">
+    <div class="col custom">
+      <img src="images/1by4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Finger Pulse Oximeter</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+      <p class="card-text"></p>
+      <b><del>RS=4499</del></b>
+      <br>
+      <b><ins>RS=3699</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Finger Pulse Oximeter</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/1by4.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>[Portable & Easy To Use] -The light-weight oxygen monitor is about 50g(with the batteries), you only need to put your finger in the fingertip pulse oximeter testing chamber, the result will be shown.
+
+            - [Comfortable & Long Battery Life] -The CONTEC oxygen meter's fingertip clip use silica gel mairal,is soft and easy for a wide range of finger sizes, 20-30 hours battery life, automatic power off after 5 seconds.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- product 5 -->
+  <div class="col custom">
+    <img src="images/1by5.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Thermometer</h5>
+  <center>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>(5.0)
+    <p class="card-text"></p>
+    <b><del>RS=6499</del></b>
+    <br>
+    <b><ins>RS=5869</ins></b>
+    </center>
+    <br>
+  <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">
+    Check Now
+  </button>
+</div>
+  </div>
+<!-- modal -->
+<div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Thermometer</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/1by5.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>(5.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>Reliable & Accurate: Most commonly used in medical settings, yet perfect for home use for your family. The Reading populates in just 2 seconds with both C/F degree options.
+
+            - 4-IN-1 READINGS: Store up to 50 results of personal, room, food, or liquid temperatures.
+            
+            - EASY TO USE: Normal, low-grade, and high-fever alerts make readings easy to understand with the 3-color backlight high-fever alarm. One-touch operation allows for quick and easy readings with user-friendly modes and power buttons.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product6-->
+    <div class="col custom">
+      <img src="images/1by6.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Blood glucose meter</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bx-star'></i>(4.0)
+      <p class="card-text"></p>
+      <b><del>RS=29999</del></b>
+      <br>
+      <b><ins>RS=27899</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Blood glucose meter</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/1by6.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6> Complete Kit: The package includes one iHealth Gluco+ meter, glucose test strips (50 Count), 1 lancing device, 10 count 30 gauge lancets, and a carrying case. Easy to Use: The glucose test is user-friendly and comes with clear instructions so you can test easily at home or on the go.
+
+            - Reliable Monitoring: The glucometer provides reliable monitoring of blood sugar levels to help you track your daily health status and stay on top of managing your glucose levels. iHealth gluco plus smart bluetooth glucose meter is an in vitro diagnostic medical device. Health management and monitor blood sugar levels in people with diabetes. This glucometer is designed for simplicity and convenience, and has a range of features to make routine testing quick and easy.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+       
+</body>
+</html>

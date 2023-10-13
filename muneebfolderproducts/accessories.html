@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+  img{
+    width: 100%;     
+     }
+     .addtocart{
+        width: 220px;
+        height: 40px;
+      border-radius: 60px;
+      border: 2px;
+     }
+    
+   
+button{
+    transition: all 1s;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.card-img-top{
+    border-radius: 20px;
+}
+ins{
+    text-decoration: none;
+    color: red
+
+}
+
+.bx bxs-star{
+    color: black;
+}
+.buttoncart{
+    height: 40px;
+    width: 200px;
+    border-radius: 80px;
+    font-weight: 700px;
+    color: blue;
+    background-color: brown;
+}
+.card-body{
+    border: 2px;
+}
+.modal-body{
+    text-align: center;
+}
+.custom{
+    border: 1px solid aqua;
+    margin: 5px;
+    border-radius: 20px;
+}
+</style>
+<body>
+    <!-------------front banner -images---------------->
+    <div class="banner">
+    <img src="images/our products banner.png" alt="">
+  </div>
+    <br>
+    <br>
+    <!----------------cards--------------------->
+    <!--product1-->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col custom">
+          <img src="images/2by1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Workout Dumbbell</h5>
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+          <i class='bx bx-star'></i>(3.5)
+          <p class="card-text"></p>
+          <b><del>RS=8979</del></b>
+          <br>
+          <b><ins>RS=7295</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Workout Dumbbell</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/2by1.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+          <i class='bx bx-star'></i>(3.5)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- Dumbbell hand weights for exercise and resistance training; ideal for fitness classes, home gym, or workout area
+
+          - Includes 2 navy blue dumbbells, each weighing 10 pounds (20 pounds total) Neoprene coating for a secure, nonslip grip
+          
+          - Printed weight number on each end cap for quick identification. Hexagonal shape prevents dumbbells from rolling away
+          
+          - Product dimensions: approximately 8.6 x 4 x 4 inches</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- product 2 -->
+      <div class="col custom">
+        <img src="images/2by2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Single Exercise Band</h5>
+      <center>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>(3.0)
+        <p class="card-text"></p>
+        <b><del>RS=6129</del></b>
+        <br>
+        <b><ins>RS=4209</ins></b>
+        </center>
+        <br>
+      <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+        Check Now
+      </button>
+    </div>
+      </div>
+<!-- modal -->
+<div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Single Exercise Band</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/2by2.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>(3.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- A simply Equipped Training Tool: Instead of dumbbell and other complicated resistance training, our resistance bands is a good choice to do training for the whole body, its high-quality, stronger durability, safer feature make you completely enjoy the training you like.
+
+          - Perfectly Fit for All Training Levels: According to your fitness level and the level you want to reach, you can easily choose the different resistance bands to achieve the goal of muscle construction and keep slim.
+          
+          - Let Every Muscle Act: Help all muscle groups to effectively train, such as buttocks, abdomen, chest, shoulders, back, triceps, biceps and thighs, which is ideally suitable for fitness, body work-out and muscle training.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product3-->
+        <div class="col custom">
+          <img src="images/2by3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Medical Leg Brace</h5>
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          <p class="card-text"></p>
+          <b><del>RS=5869</del></b>
+          <br>
+          <b><ins>RS=4699</ins></b>
+          </center>
+          <br>
+        <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+          Check Now
+        </button>
+      </div>
+        </div>
+<!-- modal -->
+<div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Medical Leg Brace</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/2by3.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- Optic-fit technology located on the medial side of the thigh cuff, allows the natural movement of the knee through flexion/extension, creating an intimate fit and reducing migration
+
+          - Cinching dial for tightening and incremental adjustment; quick-release buckles are internally mounted for easy application and removal. Moderate to severe ACL instabilities
+          
+          - Aircraft grade aluminum provides superior strength yet is extremely lightweight (weighs an average of 18.5 oz.)</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--product4-->
+
+ 
+
+ <div class="container text-center">
+  <div class="row">
+    <div class="col custom">
+      <img src="images/2by4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Wheel Chair</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+      <p class="card-text"></p>
+      <b><del>RS=11999</del></b>
+      <br>
+      <b><ins>RS=9499</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Wheel Chair</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/2by4.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>(5.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>Durable Design: This transport wheelchair features durable tires enhanced with push-to-lock functionality for added safety; model features a 18-inch seat, swing-away footrests, and flip-back desk arms
+
+          - Lightweight Folding Wheelchair: These cutting-edge wheelchairs for adults and seniors make independent mobility enjoyable via specialized features; just 41 pounds, the portable wheelchair folds to a compact 12.5-inch width for transport or storage
+          
+          - Smooth, Stable Ride: Easy to push with solid yet lightweight wheels, this single axle wheelchair is easy to maneuver and fits through most doorway.</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- product 5 -->
+  <div class="col custom">
+    <img src="images/2by5.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Butto Folding Walker</h5>
+  <center>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>(3.0)
+    <p class="card-text"></p>
+    <b><del>RS=2699</del></b>
+    <br>
+    <b><ins>RS=2249</ins></b>
+    </center>
+    <br>
+  <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">
+    Check Now
+  </button>
+</div>
+  </div>
+<!-- modal -->
+<div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Butto Folding Walker</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/2by5.jpg" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>(3.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>- Wheeled Walker: Designed for safety and convenience, this rolling walker features push-button mechanisms that may be operated by fingers, palms, or even the side of the hand
+
+          - Quality Construction: Constructed from sturdy aluminum, this adult walker offers maximum strength while remaining lightweight</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------product6-->
+    <div class="col custom">
+      <img src="images/2by6.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Drive Crutches</h5>
+    <center>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bx-star'></i>(4.0)
+      <p class="card-text"></p>
+      <b><del>RS=7999</del></b>
+      <br>
+      <b><ins>RS=6499</ins></b>
+      </center>
+      <br>
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">
+      Check Now
+    </button>
+  </div>
+    </div>
+<!-- modal -->
+<div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" style="text-align: center !important; display: block;">Drive Crutches</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      </div>
+      <div class="modal-body">
+        <img src="images/2by6.webp" alt="">
+        <center>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>(4.0)
+          </center>
+        <label for=""><h3>Description</h3></label>
+        <h6>Adult Crutches: Lightweight crutches are made of alloy steel and hard plastic to provide great support; bariatric crutches are capable of supporting up to 500 lbs
+
+          - Comfortable Forearm Crutches: Adult crutches feature comfortable, durable vinyl hand grips; vinyl-coated and ergonomically contoured arm cuffs are molded for comfort and stability</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button class="btn btn-primary">BUY NOW </button>
+      </div>
+    </div>
+  </div>
+</div>
+       
+</body>
+</html>
